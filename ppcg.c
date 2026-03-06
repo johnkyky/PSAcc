@@ -1135,6 +1135,7 @@ static int check_options(isl_ctx *ctx)
 	return 0;
 }
 
+#ifndef PPCG_LIBRARY_MODE
 int main(int argc, char **argv)
 {
 	int r;
@@ -1169,3 +1170,4 @@ int main(int argc, char **argv)
 
 	return r;
 }
+#endif
