@@ -6,7 +6,7 @@
 #include <isl/union_set.h>
 #include <isl/union_map.h>
 #include <isl/id_to_ast_expr.h>
-#include <pet.h>
+#include "pet.h"
 
 #include "ppcg_options.h"
 

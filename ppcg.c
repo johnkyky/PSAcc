@@ -29,7 +29,7 @@
 #include <isl/id_to_ast_expr.h>
 #include <isl/ast_build.h>
 #include <isl/schedule.h>
-#include <pet.h>
+#include "pet.h"
 #include "ppcg.h"
 #include "ppcg_options.h"
 #include "cuda.h"

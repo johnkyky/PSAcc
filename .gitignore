@@ -27,3 +27,5 @@ test-driver
 
 opencl_test.sh
 polybench_test.sh
+
+build/

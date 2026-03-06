@@ -22,7 +22,7 @@
 #include <isl/ast_build.h>
 #include <isl/schedule.h>
 #include <isl/schedule_node.h>
-#include <pet.h>
+#include "pet.h"
 
 #include "ppcg.h"
 #include "ppcg_options.h"

@@ -5,7 +5,7 @@
 #include <isl/id.h>
 #include <isl/id_to_ast_expr.h>
 
-#include <pet.h>
+#include "pet.h"
 
 #include "ppcg.h"
 #include "ppcg_options.h"

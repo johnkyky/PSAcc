@@ -1,7 +1,7 @@
 #ifndef _OPENCL_H
 #define _OPENCL_H
 
-#include <pet.h>
+#include "pet.h"
 #include "ppcg_options.h"
 #include "ppcg.h"
 
