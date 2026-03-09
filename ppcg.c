@@ -807,6 +807,10 @@ static void report_dead_code(struct ppcg_scop *ps,
 	isl_union_set_free(dead);
 }
 
+#ifndef PPCG_EXECUTABLE_MODE
+#define isl_union_set_plain_unshifted_simple_hull(x) (x)
+#endif
+
 /* Determine constraints of "old" that are still valid for "extended",
  * where "old" is assumed to be a subset of "extended".
  *
