@@ -40,6 +40,8 @@ set(PPCG_CORE_SOURCES
     version.c
 
     pet.c pet.h
+
+    ppcg.c ppcg.h
 )
 
 add_library(ppcg STATIC ${PPCG_CORE_SOURCES})
