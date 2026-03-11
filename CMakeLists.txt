@@ -67,11 +67,4 @@ else()
     
     target_include_directories(ppcg PRIVATE ${ISL_INCLUDE_DIRS})
     target_link_libraries(ppcg PRIVATE ${ISL_LIBRARIES} gmp)
-    
-    add_executable(ppcgtest ppcg.c)
-    target_link_libraries(ppcgtest PRIVATE ppcg ${ISL_LIBRARIES} gmp)
-    target_include_directories(ppcgtest PRIVATE
-        ${CMAKE_CURRENT_BINARY_DIR}
-        ${ISL_INCLUDE_DIRS}
-    )
 endif()
