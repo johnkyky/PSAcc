@@ -5546,7 +5546,6 @@ __isl_give isl_schedule *map_to_device(struct gpu_gen *gen,
 		isl_union_set_free(domain);
 		isl_union_map_free(prefix);
 	}
-	node = add_to_from_device(node, domain, prefix, gen->prog);
 	node = isl_schedule_node_root(node);
 	node = isl_schedule_node_child(node, 0);
 	node = isl_schedule_node_child(node, 0);
