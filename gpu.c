@@ -1651,9 +1651,7 @@ static __isl_give isl_multi_pw_aff *transform_index(
 		return isl_multi_pw_aff_free(index);
 	i = find_array_index(data->kernel, name);
 	if (i < 0)
-		isl_die(isl_multi_pw_aff_get_ctx(index), isl_error_internal,
-			"cannot find array",
-			return isl_multi_pw_aff_free(index));
+    return index;
 	data->local_array = &data->kernel->array[i];
 	data->array = data->local_array->array;
 
